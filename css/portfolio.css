@@ -1,0 +1,193 @@
+/* START PORTFOLIO */
+.tm-portfolio {
+    background: #f8f8f8;
+    background: #b3b3b3;
+    padding-top: 35px;
+  }
+  
+  .tm-portfolio .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tm-portfolio .col-md-3,
+  .tm-portfolio .col-sm-3 {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tm-portfolio-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    
+  }
+  
+  .tm-portfolio-title::after {
+  
+    width: 5.6em !important;
+    color: #00ADB5;
+    background: #00ADB5;
+    content: "-";
+    background: transparent;
+    color: transparent;
+    background: #00ADB5;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 4.5em;
+    height: 3px;
+    animation: 1s ease-out slideleft;
+  }
+  
+  .portfolio-item-title {
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-thumb {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+  }
+  
+  .portfolio-overlay {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #E31B6D;
+    color: #ffffff;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    text-align: center;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+  }
+  
+  .portfolio-thumb:hover .portfolio-overlay {
+    opacity: 0.8;
+    -webkit-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    transform: scale(1.0);
+  }
+  
+  .portfolio-overlay .fa {
+    border: 1px solid #666;
+    border-radius: 0;
+    color: #666;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 6px;
+    margin-bottom: 10px;
+  }
+  
+  /* FILTER CSS */
+  .filter-wrapper {
+    user-select: none;
+    width: 100%;
+    margin: 0 0 24px 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .filter-wrapper li {
+    display: inline-block;
+    margin: 4px;
+  
+  }
+  
+  .filter-wrapper li a {
+    color: #999999;
+    color: black;
+    padding: 8px 17px;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+  }
+  
+  .filter-wrapper li a:focus,
+  .filter-wrapper li a:hover,
+  .filter-wrapper li a.selected {
+    background: #E31B6D;
+    border-color: transparent;
+    color: #ffffff;
+    /* best orange #eb5424  */
+  }
+  
+  /* ISOTOPE BOX CSS */
+  .iso-box-section {
+    width: 100%;
+  }
+  
+  .iso-box-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+  }
+  
+  .iso-box {
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .iso-box>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .iso-box>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .fluid-img {
+    width:100%;
+    display: block;
+    height:auto ;
+  }
+  
+  .project-button{
+    background-color: #d4f1f96e;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    outline: none;
+
+  }
+  /* END PORTFOLIO */

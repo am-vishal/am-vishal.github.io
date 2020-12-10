@@ -1,0 +1,90 @@
+/* START RESUME */
+.tm-red-text {
+  color: #E31B6D;
+  color: #E31B6D;
+}
+
+.tm-info-label {
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+}
+
+.tm-progress {
+  background: #fff;
+  border-radius: 2px;
+  height: 4px;
+}
+
+.progress-bar-danger {
+  background: #E31B6D;
+}
+
+.tm-progress-label {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.progress-percent-small {
+  display: block;
+  float: right;
+  padding-right: 80px;
+}
+
+/* END RESUME */
+
+/* START ABOUT */
+.tm-about {
+  /* background: url('../images/about-bg.jpg'); */
+  background: #F7F7F9;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.about-me::after {
+
+  width: 5.6em !important;
+  content: "-";
+  background: transparent;
+  color: transparent;
+  background: #E31B6D;
+  /* color: #00ADB5; */
+  background: #00ADB5;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 4.5em;
+  height: 3px;
+  animation: 1s ease-out slideleft;
+}
+
+#rl {
+  font-size: 16px;
+  background: linear-gradient(to right,
+      #e31b6d 8%,
+      #fad648 33%,
+      #44ce7b 36%,
+      #03a9f4 60%,
+      #6f07d6 90%,
+      #6f07d6 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#rl:hover {
+  border-bottom: 0.5px solid;
+  border-image: linear-gradient(to right,
+      #e31b6d 8%,
+      #fad648 33%,
+      #44ce7b 36%,
+      #03a9f4 60%,
+      #6f07d6 90%,
+      #6f07d6 100%) 1;
+}
+
+/* END ABOUT  */

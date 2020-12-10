@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Front End Developer</title>
+  <link rel="icon" type="image/png" href="images/fav.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body data-spy="scroll" data-target="#rock-navigation">
+  <!-- START NAVIGATION -->
+  <div class="navbar navbar-default bs-dos-nav navbar-fixed-top sticky-navigation" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#rock-navigation">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+      </div>
+      <nav class="collapse navbar-collapse" id="rock-navigation">
+        <ul class="nav navbar-nav navbar-center main-navigation text-uppercase">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- END NAVIGATION -->
+
+  <!-- START HOME -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-1"></div>
+        <div class="col-md-8 col-sm-10">
+          <!-- <h1 class="tm-home-title"><strong>Helloooo</strong></h1> -->
+          <h2 class="tm-home-subtitle" data-aos="fade-down">
+            I'm a Front-End Developer
+          </h2>
+          <!-- <p style="color: #E31B6D; font-size: 1.5em;">I can create modern and responsive designs for
+						<strong>Web</strong> and
+						<strong>Mobile</strong>
+					</p> -->
+          <a href="#portfolio" class="btn btn-primary smoothScroll tm-view-more-btn" data-aos="fade-up">View My Work
+            &#8681;</a>
+        </div>
+        <div class="col-md-2 col-sm-1"></div>
+      </div>
+    </div>
+  </section>
+  <!-- END HOME -->
+
+  <!-- START PORTFOLIO -->
+  <section id="portfolio" class="tm-portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 wow bounce">
+          <div class="title">
+            <h2 class="tm-portfolio-title" data-aos="fade-right">
+              Portfolio
+            </h2>
+          </div>
+
+          <!-- START ISO SECTION -->
+          <div class="iso-section">
+            <ul class="filter-wrapper clearfix">
+              <li>
+                <a href="#" class="opc-main-bg selected" data-filter="*">All</a>
+              </li>
+              <li>
+                <a href="#" class="opc-main-bg" data-filter=".html">HTML/CSS</a>
+              </li>
+              <li>
+                <a href="#" class="opc-main-bg" data-filter=".javascript">JavaScript</a>
+              </li>
+              <li>
+                <a href="#" class="opc-main-bg" data-filter=".react">React.js</a>
+              </li>
+              <!-- <li><a href="#" class="opc-main-bg" data-filter=".mobile">Future Skills</a></li> -->
+            </ul>
+            <div class="iso-box-section">
+              <div class="iso-box-wrapper col4-iso-box">
+
+                <div class="iso-box react col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/friends-avatar.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">
+                        friends avatar
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/friends-avatar/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box react col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/face-recognition.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">
+                        Face Recognition
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/face-detection-app/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box html mobile col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/responsive-image-gallery.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">
+                        responsive-image-gallery
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/responsive-image-gallery/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box html mobile col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/lusu-restaurant.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">
+                        lusu-restaurant
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/lusu-restaurant/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box html mobile col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/steve-jobs.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">
+                        steve-jobs
+                      </h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/stevejobs/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box javascript col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/task-list.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">Steve Jobs</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/task-list/')" value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box javascript col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/linear-generator.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">Steve Jobs</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/Gradient-Background-Generator/')"
+                        value="View">
+                    </div>
+                  </div>
+                </div>
+                <div class="iso-box javascript col-md-3 col-sm-3 col-xs-12">
+                  <div class="portfolio-thumb">
+                    <img src="images/relaxer.png" class="fluid-img" alt="portfolio img" />
+                    <div class="portfolio-overlay">
+                      <h3 class="portfolio-item-title">Steve Jobs</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonumm.
+                      </p>
+                      <input type="button" class="project-button"
+                        onClick="parent.open('https://am-vishal.github.io/relaxer/')" value="View">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END PORTFOLIO -->
+
+  <!-- START ABOUT -->
+  <section id="about" class="tm-about">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-7"> -->
+        <div class="text-center">
+          <div class="title">
+            <h2>
+              <p class="about-me" style="
+                    display: inline-block;
+                    font-family: Bradley Hand, cursive;
+                  ">
+                <strong>About Me</strong>
+              </p>
+            </h2>
+          </div>
+          <span class="text-center"><img src="https://i.postimg.cc/KcLRZzys/Iccc-MG-20200228-165103-662.jpg" style="
+                  border-radius: 50%;
+                  height: 12em;
+                  width: 12em;
+                  background: cover;
+                " /></span>
+          <h1 class="tm-red-text" data-aos="fade-down">Vishal Kumar</h1>
+          <p style="color: black">
+            Hello, I am a Front-End Developer, I enjoy solving real-world
+            problems with technology. I create static and dynamic websites,
+            but i love to create dynamic website because it can be change in
+            future and that would be more prettier... I focus on the structure
+            and design of web pages, striking a balance between functional and
+            aesthetic design and ensuring web design is optimized for
+            difference difference devices. I'm always open to new challenges
+            and opportunities. Use these
+            <a href="#contact" id="rl"><strong style="text-decoration: underline">Links</strong></a>
+            below to get in touch with me and I could be working on your next
+            project
+          </p>
+          <a class="resume-link"
+            href="https://drive.google.com/file/d/17hA68cpJkps4xYHDIWpR7HkeP-ZJJEYq/view?usp=sharing"
+            target="_blank"><img src="images/resume.jpg" style="height: 50px; width: 50px" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+    <path d="M0 0 L50 100 L100 0" fill="#F7F7F9" stroke="#E31B6D"></path>
+  </svg>
+  <section id="contact" class="tm-contact">
+    <div class="contact-heading">CONTACT</div>
+    <div class="container flex" id="social" style="width: 50%" data-aos="fade-up">
+      <div class="contact-message">Any question or wanna work with me?</div>
+      <form action="https://formspree.io/mqkyydbr" method="POST" enctype="multipart/form-data">
+        <input placeholder="Name" id="name" type="text" name="name" required="" />
+        <input placeholder="Enter Your Email" id="email" type="email" name="_replyto" required=" "
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" />
+        <textarea id="textarea" placeholder="Your Message?" type="text" name="message"></textarea>
+        <span id="submit-button"><button class="submit-button">SEND</button></span>
+      </form>
+    </div>
+    <div class="contact-buttons">
+      <a class="social-button btn-lg" href="https://www.linkedin.com/in/amvishal/" target="_blank"><i
+          class="fa fa-linkedin-square"></i></a>
+      <a class="social-button btn-lg" href="https://github.com/am-vishal" target="_blank">
+        <i class="fa fa-github-square"></i></a>
+      <a class="social-button btn-lg" href="https://codepen.io/am_vishal" target="_blank">
+        <i class="fa fa-codepen" aria-hidden="true"></i></a>
+      <a class="social-button btn-lg" href="https://www.facebook.com/amvishal09/" target="_blank"><i
+          class="fa fa-facebook-square"></i></a>
+      <a class="social-button btn-lg" href="https://wa.link/55s2dj" target="_blank"><i
+          class="fab fa-whatsapp-square"></i></a>
+    </div>
+  </section>
+  <footer>Vishal @2020</footer>
+  <!-- END CONTACT -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/isotope.js"></script>
+  <script src="js/imagesloaded.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://kit.fontawesome.com/63ec097660.js"></script>
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
+  <!-- <script>
+		window.formbutton = window.formbutton || function () {
+			(formbutton.q = formbutton.q || []).push(arguments)
+		};
+		formbutton("create", {
+			action: "https://formspree.io/mqkyydbr"
+		})
+	</script> -->
+</body>
+
+</html>
