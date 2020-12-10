@@ -1,13 +1,11 @@
 /* START CONTACT */
+
 .tm-contact {
   text-align: center;
   padding-top: 80px;
   padding-bottom: 40px;
   border-bottom: 3px solid;
-  border-image: -webkit-linear-gradient(left,
-      #1e242c 1%,
-      #00adb5 50%,
-      #1e242c 100%) 0 0 100% 0/0 0 3px 0 stretch;
+  border-image: -webkit-linear-gradient(left, #1e242c 1%, #00adb5 50%, #1e242c 100%) 0 0 100% 0/0 0 3px 0 stretch;
 }
 
 .contact-buttons {
@@ -32,10 +30,7 @@ textarea {
   background: #1e242c;
   background: #393e46;
   border-bottom: 3px solid;
-  border-image: -webkit-linear-gradient(left,
-      #1e242c 1%,
-      #00adb5 50%,
-      #1e242c 100%) 0 0 100% 0/0 0 3px 0 stretch;
+  border-image: -webkit-linear-gradient(left, #1e242c 1%, #00adb5 50%, #1e242c 100%) 0 0 100% 0/0 0 3px 0 stretch;
 }
 
 #social {
@@ -57,9 +52,7 @@ textarea {
   margin-top: 2em;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="email"], textarea {
   background: #f7f7f9;
   border: 0.6px solid #04c2c9;
   box-sizing: border-box;
@@ -85,11 +78,10 @@ textarea {
   font-family: "Raleway";
   padding: 5px 5px;
   margin-top: 20px;
-  min-width: 20%;
+  min-width: 25%;
   border-color: none;
   border: none;
   outline: 0;
-
   background: #f7f7f9;
   color: #00adb5;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -100,8 +92,7 @@ textarea {
   /* best green #2EE59D */
 }
 
-.submit-button:hover,
-.submit-button:active {
+.submit-button:hover, .submit-button:active {
   /* background-color: #2EE59D; */
   box-shadow: 0px 15px 20px rgb(0, 173, 181, 0.4);
   color: black;
@@ -135,14 +126,9 @@ textarea {
     transform: translateX(-100%);
     left: 0%;
   }
-
   100% {
     transform: translateX(0%);
   }
-}
-
-.contact-buttons {
-  zoom: 150%;
 }
 
 .fa-linkedin-square {
@@ -171,11 +157,7 @@ textarea {
   transition: ease-in 0.3s;
 }
 
-.fa-linkedin-square:hover,
-.fa-github-square:hover,
-.fa-codepen:hover,
-.fa-facebook-square:hover,
-.fa-whatsapp-square:hover {
+.fa-linkedin-square:hover, .fa-github-square:hover, .fa-codepen:hover, .fa-facebook-square:hover, .fa-whatsapp-square:hover {
   transform: scale(1.1);
   box-shadow: 0px 25px 30px 0px;
 }
@@ -190,14 +172,36 @@ textarea {
 } */
 
 @media (min-width: 0px) and (max-width: 419px) {
-
   .contact-buttons {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
   }
+}
 
+@media only screen and (min-device-width: 600px) and (max-device-width: 924px) {
+  .submit-button {
+    min-width: 20vw;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 599px) {
+  .submit-button {
+    min-width: 25vw;
+  }
+}
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 599px) {
+  #social {
+    min-width: 90%;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 924px) {
+  #social {
+    min-width: 70%;
+  }
 }
 
 /* END CONTACT */
