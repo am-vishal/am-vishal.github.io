@@ -1,2 +1,3 @@
 # [Portfolio Link](https://amvishal.tech/)
-Portfolio created by HTML, CSS, JavaScript and third party libraries
+
+Portfolio created by ReactJS and third party libraries
