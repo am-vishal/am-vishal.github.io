@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/amvishal.tech/static/css/main.0e282064.chunk.css",
+    "main.js": "/amvishal.tech/static/js/main.78271b55.chunk.js",
+    "main.js.map": "/amvishal.tech/static/js/main.78271b55.chunk.js.map",
+    "runtime-main.js": "/amvishal.tech/static/js/runtime-main.94e58cc9.js",
+    "runtime-main.js.map": "/amvishal.tech/static/js/runtime-main.94e58cc9.js.map",
+    "static/js/2.238ecd32.chunk.js": "/amvishal.tech/static/js/2.238ecd32.chunk.js",
+    "static/js/2.238ecd32.chunk.js.map": "/amvishal.tech/static/js/2.238ecd32.chunk.js.map",
+    "static/js/3.229baf1a.chunk.js": "/amvishal.tech/static/js/3.229baf1a.chunk.js",
+    "static/js/3.229baf1a.chunk.js.map": "/amvishal.tech/static/js/3.229baf1a.chunk.js.map",
+    "index.html": "/amvishal.tech/index.html",
+    "static/css/main.0e282064.chunk.css.map": "/amvishal.tech/static/css/main.0e282064.chunk.css.map",
+    "static/js/2.238ecd32.chunk.js.LICENSE.txt": "/amvishal.tech/static/js/2.238ecd32.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.91aad92a.svg": "/amvishal.tech/static/media/bootstrap.91aad92a.svg",
+    "static/media/codepenLogo.6b3da5fa.svg": "/amvishal.tech/static/media/codepenLogo.6b3da5fa.svg",
+    "static/media/css3.3ec32022.svg": "/amvishal.tech/static/media/css3.3ec32022.svg",
+    "static/media/datastructure.27af2139.webp": "/amvishal.tech/static/media/datastructure.27af2139.webp",
+    "static/media/dom.ff596bfd.png": "/amvishal.tech/static/media/dom.ff596bfd.png",
+    "static/media/firebase.c55df031.svg": "/amvishal.tech/static/media/firebase.c55df031.svg",
+    "static/media/git.43d387b7.svg": "/amvishal.tech/static/media/git.43d387b7.svg",
+    "static/media/github.7619334e.svg": "/amvishal.tech/static/media/github.7619334e.svg",
+    "static/media/html5.c1bb84e0.svg": "/amvishal.tech/static/media/html5.c1bb84e0.svg",
+    "static/media/javascript.19600440.svg": "/amvishal.tech/static/media/javascript.19600440.svg",
+    "static/media/linkedin.ac65c63f.svg": "/amvishal.tech/static/media/linkedin.ac65c63f.svg",
+    "static/media/lyricsSearch.3f591b2d.png": "/amvishal.tech/static/media/lyricsSearch.3f591b2d.png",
+    "static/media/materialui.60a0ece0.svg": "/amvishal.tech/static/media/materialui.60a0ece0.svg",
+    "static/media/portfolio.6f7e382c.png": "/amvishal.tech/static/media/portfolio.6f7e382c.png",
+    "static/media/react.d580a556.svg": "/amvishal.tech/static/media/react.d580a556.svg",
+    "static/media/redux.0a4a6ca2.svg": "/amvishal.tech/static/media/redux.0a4a6ca2.svg",
+    "static/media/resume.eeb4ac2f.webp": "/amvishal.tech/static/media/resume.eeb4ac2f.webp",
+    "static/media/styledcomponents.45b765fa.webp": "/amvishal.tech/static/media/styledcomponents.45b765fa.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94e58cc9.js",
+    "static/js/2.238ecd32.chunk.js",
+    "static/css/main.0e282064.chunk.css",
+    "static/js/main.78271b55.chunk.js"
+  ]
+}
