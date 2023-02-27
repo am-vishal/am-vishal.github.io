@@ -1,6 +1,5 @@
 {
   "name": "vishal-portfolio",
-  "homepage": "https://am-vishal.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
