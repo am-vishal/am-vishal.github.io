@@ -1,5 +1,6 @@
 {
   "name": "vishal-portfolio",
+  "homepage": "https://am-vishal.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +30,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^5.0.0"
   }
 }
