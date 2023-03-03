@@ -595,6 +595,10 @@ footer {
   width: 180px;
 }
 
+.so_top_icon {
+  display: none !important;
+}
+
 .react-tabs__tab-panel--selected {
   display: flex;
   gap: 15px;
@@ -602,6 +606,7 @@ footer {
   padding: 10px;
   transform: translateY(-11px);
   background-color: transparent;
+  height: 495px;
 }
 
 .react-tabs__tab .react-tabs__tab--selected {
@@ -650,8 +655,9 @@ footer {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  min-height: 265px;
+  min-height: 215px;
   max-height: 265px;
+  width: 350px+10vw !important;
   transition: 0.7s;
 }
 

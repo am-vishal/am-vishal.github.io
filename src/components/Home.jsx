@@ -105,9 +105,9 @@ const Home = () => {
                 </TabList>
                 {body.map((items, index) => (
                   <TabPanel key={index}>
-                    <div className="row overflow-scroll-cls bg-transparent d-flex justify-content-center mb-4">
+                    <div className="row overflow-scroll-cls bg-transparent mb-4">
                       {items[Object.keys(items)].map((ele, i) => (
-                        <div key={i} className="col bg-transparent d-flex justify-content-center my-4">
+                        <div key={i} className="col bg-transparent justify-content-sm-center justify-content-md-between my-2">
                           <Card key={i} ele={ele} />
                         </div>
                       ))}
