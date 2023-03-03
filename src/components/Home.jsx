@@ -131,7 +131,7 @@ const Home = () => {
                 </h2>
               </div>
               <div className="container">
-                <p className="about-me-para mx-4">
+                <p className="about-me-para">
                   Meet <u className="d-inline tm-red-text popup-image">Vishal</u>, the MERN-stack magician! He's like a real-life superhero, using his coding powers to solve the
                   world's problems (well, at least the digital ones). And his problem-solving skills are so sharp, they could cut through steel - if only he had a giant pair of
                   scissors, he creates web applications that are both functional AND aesthetically pleasing (which is more than most people can say about themselves). Whether you
