@@ -90,12 +90,12 @@ const Home = () => {
   return (
     <>
       <section id="portfolio" className="box-shadow" style={{ background: "#23324673" }}>
-        <div className="container hero-container">
-          <video src="/BackgroundVideo.mp4" autoPlay loop muted />
+        <div className="hero-container">
+          <video className="d-none d-lg-block d-md-block" src="assets/BackgroundVideo.mp4" autoPlay loop muted />
           <div className="title my-4 py-2">
             <h2 className="tm-portfolio-title text-white">My Work</h2>
           </div>
-          <div className="container bg-transparent mx-3 row d-flex justify-content-center w-100">
+          <div className="bg-transparent mx-3 row d-flex justify-content-center w-100">
             <Suspense fallback={<div>Loading...</div>}>
               <Tabs>
                 <TabList>
@@ -152,32 +152,29 @@ const Home = () => {
               Languages and Tools
             </h3>
             <div className="d-flex justify-content-center align-items-center flex-wrap image-container mx-4">
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="JavaScript" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React" />
-              <img alt="redux" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Node.js" />
+              <img src="/assets/images/javascript.png" alt="JavaScript" />
+              <img src="/assets/images/react.png" alt="React" />
+              <img alt="redux" src="/assets/images/redux.png" />
+              <img src="/assets/images/nodejs.png" alt="Node.js" />
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@7.21.0/icons/express.svg" alt="Express.js" />
               <img src="https://i.postimg.cc/qvM6Q4NR/GFz-P-5e-400x400.png" alt="MongoDB" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" alt="Sass" />
-              <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="Bootstrap" />
+              <img src="/assets/images/html.png" alt="HTML" />
+              <img src="/assets/images/css.png" alt="CSS" />
+              <img src="/assets/images/sass.png" alt="Sass" />
+              <img src="/assets/images/bootstrap.png" alt="Bootstrap" />
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.1.0/icons/mui.svg" alt="Material-UI" />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png"
-                alt="Styled-Components"
-              />
+              <img src="/assets/images/styled-components.png" alt="Styled-Components" />
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@7.21.0/icons/dsautomobiles.svg" alt="Data Structure" />
-              <img alt="VSCode" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
+              <img alt="VSCode" src="/assets/images/visual-studio-code.png" />
               <img alt="jira-tool" src="https://img.icons8.com/color/512/jira.png" />
               <img alt="gitlab" src="https://cdn-icons-png.flaticon.com/512/5968/5968853.png" />
-              <img alt="git" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
-              <img alt="Terminal" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+              <img alt="git" src="/assets/images/git.png" />
+              <img alt="Terminal" src="/assets/images/terminal.png" />
             </div>
           </div>
           <div className="col-md-12 d-flex justify-content-center translate">
             <a className="resume-link" href="/your-resume.pdf" target="_blank" rel="noopener noreferrer">
-              <img src="/resume.jpg" alt="Resume" style={{ height: "50px", width: "50px" }} />
+              <img src="/assets/images/resume.jpg" alt="Resume" style={{ height: "50px", width: "50px" }} />
             </a>
           </div>
         </div>
@@ -188,10 +185,10 @@ const Home = () => {
       <section id="contact" className="tm-contact">
         <div className="contact-buttons">
           <a className="social-button btn-lg" href="https://www.linkedin.com/in/amvishal/" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-linkedin"></i>
+            <img alt="linkedin" src="/assets/images/linkedin.png" height="24px" width="24px" />
           </a>
           <a className="social-button btn-lg" href="https://github.com/am-vishal" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-github"></i>
+            <img alt="github" src="/assets/images/github.png" height="24px" width="24px" />
           </a>
           <a
             className="social-button btn-lg"
@@ -202,7 +199,7 @@ const Home = () => {
             <img src="https://classroom.codingninjas.com/assets-app/icons/cn-logo-light.svg" height="31px" alt="Coding Ninjas logo" />
           </a>
           <a className="social-button btn-lg" href="https://codepen.io/am_vishal" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-codepen"></i>
+            <img alt="codepen" src="/assets/images/codepen.png" height="28px" width="28px" />
           </a>
         </div>
       </section>

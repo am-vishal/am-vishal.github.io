@@ -21,6 +21,12 @@ body::-webkit-scrollbar-thumb {
 .box-shadow {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
+@media only screen and (max-width: 767px) {
+  .box-shadow {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    background-color: #132f54 !important;
+  }
+}
 .overflow-scroll-cls {
   max-height: 450px;
   overflow: scroll;
@@ -43,9 +49,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
   object-fit: contain;
 }
 
@@ -94,14 +98,6 @@ hr {
   padding: 0;
 }
 
-/* .navbar-brand>img {
-  height: auto;
-  width: auto;
-
-  max-width: 40px;
-  max-height: 30px;
-} */
-
 .navbar-default .navbar-nav li a {
   color: #202020;
   font-size: 1em;
@@ -142,7 +138,6 @@ hr {
 .navbar-default .navbar-toggle:focus {
   background-color: transparent;
 }
-
 /* END NAVIGATION */
 
 /* START PORTFOLIO */
@@ -392,6 +387,7 @@ hr {
 .about-me-para {
   font-family: "Comic Sans MS";
   text-align: justify;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   /* font-family: "Kristen ITC"; */
   /* font-family: "Jokerman"; */
 }
@@ -591,7 +587,7 @@ footer {
 }
 
 .batman-image:hover::before {
-  background-image: url("/public/batman.gif");
+  background-image: url("/public/assets/images/batman.gif");
 }
 
 .tooltip-inner {
