@@ -173,7 +173,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-12 d-flex justify-content-center translate">
-            <a className="resume-link" href="/your-resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a className="resume-link" href="https://drive.google.com/file/d/1uHZ06-Z0-taZlIsvVmKgk-QY1TaJdCEw/view" target="_blank" rel="noopener noreferrer">
               <img src="/assets/images/resume.jpg" alt="Resume" style={{ height: "50px", width: "50px" }} />
             </a>
           </div>
