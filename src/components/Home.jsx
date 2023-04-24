@@ -190,14 +190,6 @@ const Home = () => {
           <a className="social-button btn-lg" href="https://github.com/am-vishal" target="_blank" rel="noopener noreferrer">
             <img alt="github" src="/assets/images/github.png" height="24px" width="24px" />
           </a>
-          <a
-            className="social-button btn-lg"
-            href="https://profile.codingninjas.com/f8fa6fbf-1c5e-4dba-81ad-4e7737ef2e2d?_ga=2.6537204.791585496.1677261303-459940333.1674062638"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="https://classroom.codingninjas.com/assets-app/icons/cn-logo-light.svg" height="31px" alt="Coding Ninjas logo" />
-          </a>
           <a className="social-button btn-lg" href="https://codepen.io/am_vishal" target="_blank" rel="noopener noreferrer">
             <img alt="codepen" src="/assets/images/codepen.png" height="28px" width="28px" />
           </a>
