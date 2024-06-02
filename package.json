@@ -1,7 +1,7 @@
 {
   "name": "am-vishal.github.io",
   "homepage": "https://am-vishal.github.io/",
-  "version": "0.1.0",
+  "version": "1.1.1",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -30,6 +30,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^6.1.1"
   }
 }

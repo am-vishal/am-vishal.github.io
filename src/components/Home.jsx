@@ -1,11 +1,11 @@
 import React, { Suspense, useState, useEffect } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Tabs, TabPanel, TabList } from "react-tabs";
 const Card = React.lazy(() => import("./Card"));
 import "react-tabs/style/react-tabs.css";
 
 const Home = () => {
+  const resumeLink = "https://drive.google.com/file/d/1FBaOxjdGNrL3BXxRI7xy1xHyFOjK53rR/view?usp=sharing";
   const [joke, setjoke] = useState("");
-  const [heading] = useState(["Full Stack", "Front-End Development", "Backend Develpment"]);
   const [body] = useState([
     {
       fullStack: [
@@ -27,10 +27,6 @@ const Home = () => {
           desc: "Create and delete tasks by category, which can be accompanied by a date.",
           link: "https://github.com/am-vishal/todo-list",
         },
-      ],
-    },
-    {
-      frontEnd: [
         {
           title: "React Album",
           image: "",
@@ -55,21 +51,11 @@ const Home = () => {
           desc: "This is a simple web-based music player application.",
           link: "https://github.com/am-vishal/ninja-player",
         },
-      ],
-    },
-    {
-      backEnd: [
         {
           title: "Hospital-API",
           image: "",
           desc: "The Hospital API is a RESTful API that provides CRUD (Create, Read, Update, and Delete) operations for managing doctors, patients, and reports. It is built using Node.js and Express.js, and uses MongoDB Atlas as the database.",
           link: "https://csv-import-manager.onrender.com/",
-        },
-        {
-          title: "jwtToken",
-          image: "",
-          desc: "Generate json web token",
-          link: "https://github.com/am-vishal/jwtToken",
         },
       ],
     },
@@ -92,17 +78,12 @@ const Home = () => {
       <section id="portfolio" className="box-shadow" style={{ background: "#23324673" }}>
         <div className="hero-container">
           <video className="d-none d-lg-block d-md-block" src="assets/BackgroundVideo.mp4" autoPlay loop muted />
-          <div className="title my-4 py-2">
-            <h2 className="tm-portfolio-title text-white">My Work</h2>
+          <div className="title my-2 py-1">
+            <h2 className="tm-portfolio-title text-white">Projects</h2>
           </div>
           <div className="bg-transparent mx-3 row d-flex justify-content-center w-100">
             <Suspense fallback={<div>Loading...</div>}>
               <Tabs>
-                <TabList>
-                  {heading.map((header, index) => (
-                    <Tab key={index}>{header}</Tab>
-                  ))}
-                </TabList>
                 {body.map((items, index) => (
                   <TabPanel key={index}>
                     <div className="row overflow-scroll-cls bg-transparent mb-4">
@@ -125,39 +106,61 @@ const Home = () => {
             <div className="text-center">
               <div className="title">
                 <h2>
-                  <p className="about-me" style={{ fontFamily: "Bradley Hand, cursive", display: "inline-block" }}>
+                  <p
+                    className="about-me"
+                    style={{
+                      fontFamily: "Bradley Hand, cursive",
+                      display: "inline-block",
+                    }}
+                  >
                     <strong>About Me</strong>
                   </p>
                 </h2>
               </div>
               <div className="container">
                 <p className="about-me-para">
-                  Meet <u className="d-inline tm-red-text popup-image">Vishal</u>, the MERN-stack magician! He's like a real-life superhero, using his coding powers to solve the
-                  world's problems (well, at least the digital ones). And his problem-solving skills are so sharp, they could cut through steel - if only he had a giant pair of
-                  scissors, he creates web applications that are both functional AND aesthetically pleasing (which is more than most people can say about themselves). Whether you
-                  need a web application that works seamlessly across different devices or an app that simplifies your life, Vishal's got you covered. And don't worry, he won't
-                  disappear into the night like <span className="batman-image">Batman</span> - he's always open to new challenges and opportunities{" "}
-                  <span className="d-inline" data-toggle="tooltip" data-html="true" title={joke}>
-                    (and probably a good joke or two)
+                  Meet <u className="d-inline tm-red-text popup-image">Vishal</u>, our MERN-stack magician! He's a coding superhero who builds amazing web applications that are both functional and
+                  visually appealing. Vishal excels at creating apps that work seamlessly across devices, simplifying your life with his innovative solutions. And don't worry, he won't disappear into
+                  the night like <span className="batman-image">Batman</span> - he's always ready for new challenges and opportunities.
+                  <span className="d-inline" style={{ opacity: 0.50 }} data-toggle="tooltip" data-html="true" title={joke}>
+                    (and jokes too)
                   </span>
                   . So, use the links below to get in touch with him, and who knows, you might just be working with the next tech genius!
                 </p>
+                {/* <p className="about-me-para">
+                  Meet <u className="d-inline tm-red-text popup-image">Vishal</u>, the MERN-stack magician! He's like a real-life superhero, using his coding powers to solve the world's problems
+                  (well, at least the digital ones). And his problem-solving skills are so sharp, they could cut through steel - if only he had a giant pair of scissors, he creates web applications
+                  that are both functional AND aesthetically pleasing (which is more than most people can say about themselves). Whether you need a web application that works seamlessly across
+                  different devices or an app that simplifies your life, Vishal's got you covered. And don't worry, he won't disappear into the night like <span className="batman-image">Batman</span>{" "}
+                  - he's always open to new challenges and opportunities{" "}
+                  <span className="d-inline" data-toggle="tooltip" data-html="true" title={joke}>
+                    (and probably a good joke or two)
+                  </span>
+                </p> */}
               </div>
             </div>
           </div>
         </div>
         <div className="row justify-content-center m-0 mt-3">
           <div className="col-md-12 text-center">
-            <h3 className="mb-4" style={{ fontFamily: "Bradley Hand, cursive", display: "inline-block" }}>
+            <h3
+              className="mb-4"
+              style={{
+                fontFamily: "Bradley Hand, cursive",
+                display: "inline-block",
+              }}
+            >
               Languages and Tools
             </h3>
             <div className="d-flex justify-content-center align-items-center flex-wrap image-container mx-4">
               <img src="/assets/images/javascript.png" alt="JavaScript" />
+              <img src="/assets/images/typescript.svg" style={{ width: 30 }} alt="TypeScript" />
               <img src="/assets/images/react.png" alt="React" />
               <img alt="redux" src="/assets/images/redux.png" />
               <img src="/assets/images/nodejs.png" alt="Node.js" />
               <img src="https://cdn.jsdelivr.net/npm/simple-icons@7.21.0/icons/express.svg" alt="Express.js" />
               <img src="https://i.postimg.cc/qvM6Q4NR/GFz-P-5e-400x400.png" alt="MongoDB" />
+              <img src="/assets/images/vtex.svg" style={{ width: 60 }} alt="VTEX" />
               <img src="/assets/images/html.png" alt="HTML" />
               <img src="/assets/images/css.png" alt="CSS" />
               <img src="/assets/images/sass.png" alt="Sass" />
@@ -173,7 +176,7 @@ const Home = () => {
             </div>
           </div>
           <div className="col-md-12 d-flex justify-content-center translate">
-            <a className="resume-link" href="https://drive.google.com/file/d/1uHZ06-Z0-taZlIsvVmKgk-QY1TaJdCEw/view" target="_blank" rel="noopener noreferrer">
+            <a className="resume-link" href={resumeLink} target="_blank" rel="noopener noreferrer">
               <img src="/assets/images/resume.jpg" alt="Resume" style={{ height: "50px", width: "50px" }} />
             </a>
           </div>

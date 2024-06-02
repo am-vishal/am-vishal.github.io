@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .hero-container {
-  height: 100vh;
+  height: max-content;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -602,11 +602,12 @@ footer {
 .react-tabs__tab-panel--selected {
   display: flex;
   gap: 15px;
-  border: 1px solid rgb(78, 142, 185);
+  /* border: 1px solid rgb(78, 142, 185); */
   padding: 10px;
   transform: translateY(-11px);
   background-color: transparent;
-  height: 495px;
+  max-height: 495px;
+  height: max-content;
 }
 
 .react-tabs__tab .react-tabs__tab--selected {
